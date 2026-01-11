@@ -40,7 +40,7 @@ const app = express();
 const PORT = process.env.PORT;
 const server = http.createServer(app);
 const io = socketIo(server, {
-  maxHttpBufferSize: 1e8, // 100 MB
+  maxHttpBufferSize: 1e8, // 100MB
 });
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
