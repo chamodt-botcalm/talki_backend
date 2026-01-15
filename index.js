@@ -24,7 +24,7 @@ const TokensModel = require("./models/tokens");
 
 const admin = require("firebase-admin");
 const { v4: uuidv4 } = require("uuid");
-const serviceAccount = require("./talkie-37471-firebase-adminsdk-rs1qb-b5c2c67854.json");
+const serviceAccount = require("./talkie-37471-firebase-adminsdk-rs1qb-ecb161b140.json");
 const TransactionsModel = require("./models/transactions");
 const CallHistoryModel = require("./models/callHistory");
 const PinnedChatsModel = require("./models/pinnedChats");
